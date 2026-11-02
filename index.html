@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para o Meu Amor ❤️</title>
+
+    <!-- Fontes Elegantes e Graffiti -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Permanent+Marker&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Nome em estilo Grafite ao fundo -->
+    <div class="graffiti-bg" aria-hidden="true">PIETRA</div>
+
+    <div class="container">
+        <header>
+            <span class="badge">Especialmente para você</span>
+            <h1>Minha Linda</h1>
+            <h2>Amor da Minha vida</h2>
+        </header>
+
+        <main id="inicio">
+            <section class="hero-card">
+                <h2>Você é o meu lugar favorito ✨</h2>
+                <p>
+                 Você é o meu lugar favorito.
+
+Não sei escrever as coisas mais bonitas do mundo, mas queria que essa cartinha tivesse um pedacinho do que eu sinto.
+
+Você virou aquele lugar onde eu me sinto bem sem precisar fazer esforço. É estranho pensar que uma pessoa pode passar essa sensação, mas você consegue. Até os dias mais comuns ficam melhores quando têm um pouquinho de você.
+
+Gosto das nossas conversas, das risadas, das pequenas coisas que talvez nem pareçam importantes, mas que eu guardo com carinho.
+
+Se alguém me perguntasse qual é o meu lugar favorito, eu não responderia uma cidade ou um lugar bonito. Eu responderia você. Porque é perto de você que eu sinto vontade de ficar.
+
+Com carinho. ❤️
+                </p>
+            </section>
+
+            <section class="cards-grid" id="motivos">
+                <div class="interactive-card" onclick="revelarCard(this)">
+                    <div class="card-content">
+                        <span class="card-icon">✨</span>
+                        <h3>Motivo #1</h3>
+                        <p class="hidden-text">Seu sorriso ilumina até o meu dia mais difícil.</p>
+                    </div>
+                </div>
+
+                <div class="interactive-card" onclick="revelarCard(this)">
+                    <div class="card-content">
+                        <span class="card-icon">🌹</span>
+                        <h3>Motivo #2</h3>
+                        <p class="hidden-text">Sua presença me traz uma paz inexplicável.</p>
+                    </div>
+                </div>
+
+                <div class="interactive-card" onclick="revelarCard(this)">
+                    <div class="card-content">
+                        <span class="card-icon">💫</span>
+                        <h3>Motivo #3</h3>
+                        <p class="hidden-text">Te amar é a escolha mais fácil que faço todos os dias.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="action-wrapper">
+                <button class="glow-button" onclick="abrirSurpresa()">
+                    <span>Revelar Surpresa Final ❤️</span>
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 • Feito exclusivamente com amor para a Pietra</p>
+        </footer>
+    </div>
+
+    <!-- Modal Moderno -->
+    <div class="modal-overlay" id="modalSurpresa">
+        <div class="modal-box">
+            <div class="modal-icon">💖</div>
+            <h3>|Eu amo Você!</h3>
+            <p>Voce é a pessoa mais especial que existe nesse munto. Eu te amo demais </p>
+            <button class="close-btn" onclick="fecharSurpresa()"> Você é perfeita ❤️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
